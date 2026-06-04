@@ -11,15 +11,14 @@ namespace calculator_git
             string islem;
             do
             {
-                Console.WriteLine("\n '*' veya 'carpma'  <===>  '/' veya 'bolme'\n '+' veya 'toplama'  <===>  '-' veya 'cikarma'\n 'karekok alma'  <===>  'us hesaplama'" +
-                    "\nÇıkış için 'cikis' yazınız");
+                Console.WriteLine("\n '*' veya 'carpma'  <===>  '/' veya 'bolme'\n '+' veya 'toplama'  <===>  '-' veya 'cikarma'\n 'sqrt' veya 'karekok'  <===>  '^' veya 'us'" + "\n'%' veya 'mod' \nÇıkış için 'cikis' yazınız");
                 Console.Write("\n Yapmak istediğiniz işlemi seçiniz : ");
                 islem = Console.ReadLine();
                 switch (islem)
                 {
                     case "carpma":
                     case "*":
-                        Console.WriteLine("Kaç sayı ile işlem yapcaksın. ");                     //  bu satırı caselerin içerisinde yazıılması gerekir çünkü bazı işlemlerin içerisinde 2 sayı veya tek sayı yeterli olacaktır. 
+                        Console.Write("Kaç sayı çarpacaksın : ");                     //  bu satırı caselerin içerisinde yazıılması gerekir çünkü bazı işlemlerin içerisinde 2 sayı veya tek sayı yeterli olacaktır. 
                         int adet1 = Convert.ToInt32(Console.ReadLine());
 
                         // Eğer 0 veya negatif girilirse hatayı önlemek için ufak bir kontrol
@@ -46,13 +45,13 @@ namespace calculator_git
 
                     case "bolme":
                     case "/":
-                        Console.WriteLine("Bölmek istediğiniz sayıları giriniz : ");
+                        Console.WriteLine("Bölmek istediğiniz sayıları giriniz . ");
 
                         Console.WriteLine(" 1. sayıyı giriniz : ");
                         int bolunen = Convert.ToInt32(Console.ReadLine());
                         Console.WriteLine("2. sayıyı giriniz : ");
                         int bolen = Convert.ToInt32(Console.ReadLine());
-
+                        // eğer bölen sıfır ise hatayı önlemek için ufak bir kontrol
                         if (bolen == 0)
                         {
                             Console.WriteLine("Bölen sıfır olamaz. Lütfen geçerli bir sayı giriniz.");
@@ -65,7 +64,7 @@ namespace calculator_git
 
                     case "toplama":
                     case "+":
-                        Console.WriteLine("Kaç sayı ile işlem yapcaksın. ");
+                        Console.Write("Kaç sayı toplayacaksın : ");
                         int adet2 = Convert.ToInt32(Console.ReadLine());
                         int[] sayiAdedi2 = new int[adet2];
                         int toplam = 0;
@@ -84,7 +83,7 @@ namespace calculator_git
 
                     case "cikarma":
                     case "-":
-                        Console.WriteLine("Kaç sayı ile işlem yapacaksın: ");
+                        Console.Write("Kaç sayı çıkaracaksın : ");
                         int adet3 = Convert.ToInt32(Console.ReadLine());
 
                         // Eğer 0 veya negatif girilirse hatayı önlemek için ufak bir kontrol
@@ -121,7 +120,7 @@ namespace calculator_git
                             // Hepsini sıfırdan çıkarınca doğru sonucu verecektir. çünkü çıkaarma işlemi A-B-C şeklinde yapılıyor. bu kodda 0-A-B-C olarak aldık ve A'yı -1 ile çarparsak A-B-C olur ve doğru sonuç verir.  "bu farklı bir yöntem, kullanılır ama yazılımcılar tarafından tercih edilmez çünkü bazı işlemler bilgisayarı gereksiz bir şekilde çalıştırır, yorar ve biraz kod kalabalığı olur."
                             int csonuc = 0;
 
-                            Console.Write("Kaç sayı ile işlem yapacaksınız : ");
+                            Console.Write("Kaç sayı çıkaracaksın : ");
                             int adet3 = Convert.ToInt32(Console.ReadLine());
 
                             if (adet3 <= 0)
@@ -148,7 +147,8 @@ namespace calculator_git
                             break;
                     */
 
-                    case "karekok alma":
+                    case "karekok":
+                    case "sqrt":
                         Console.WriteLine("Karekök 2. derecedendir. Girilen sayı >= 0 olmalı.");
 
                         Console.Write("Karekökünü almak istediğniiz sayıyı giriniz : ");
@@ -164,20 +164,37 @@ namespace calculator_git
                         Console.WriteLine($"İşleminizin sonucu : {karekokSonuc} ");
                         break;
 
-                    case "us hesaplama":
-                        Console.WriteLine("Taban sayıyı giriniz :  ");
+                    case "us":
+                    case "^":
+                        Console.Write("Taban sayıyı giriniz :  ");
                         double taban = Convert.ToInt32(Console.ReadLine());
-                        Console.WriteLine("Üssü giriniz : ");
+                        Console.Write("Üssü giriniz : ");
                         double us = Convert.ToInt32(Console.ReadLine());
 
                         double ussonuc = Math.Pow(taban, us);
                         Console.WriteLine($"İşleminizin sonucu : {ussonuc} ");
                         break;
+                    case "mod":
+                    case "%":
+                        Console.Write("Kaç sayının modunu bulmak istiyorsunuz : ");
+                        int adet4 = Convert.ToInt32(Console.ReadLine());
+                        int[] sayiAdedi4 = new int[adet4];
+                        for (int i = 0; i < adet4; i++)
+                        {
+                            Console.Write($"{i + 1}. sayıyı giriniz : ");
+                            sayiAdedi4[i] = Convert.ToInt32(Console.ReadLine());
+                        }
+                        for (int i = 0; i < adet4; i++)
+                        {
+                            int modSonuc = sayiAdedi4[i] % 2;
+                            Console.WriteLine($"{i + 1}. sayının modu : {modSonuc}");
+                        }
+                        break;
                 }
 
             }
             while (islem != "cikis");
-            Console.Write("Hesap Makinemize 10 üzerinden kaç verirsiniz : ");
+            Console.Write("Hesap Makinemize 10 üzerinden kaç puan verirsiniz : ");
             double geriBildirim = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("Geri bildiriminiz için teşekkür ederiz. Sağlıklı günler dileriz... ");
 
