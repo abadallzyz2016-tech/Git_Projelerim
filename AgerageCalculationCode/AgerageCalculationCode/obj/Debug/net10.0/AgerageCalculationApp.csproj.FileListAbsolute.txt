@@ -1,0 +1,15 @@
+C:\Users\Abdulaziz\Desktop\git_projelerim\AgerageCalculationCode\AgerageCalculationCode\bin\Debug\net10.0\AgerageCalculationApp.exe
+C:\Users\Abdulaziz\Desktop\git_projelerim\AgerageCalculationCode\AgerageCalculationCode\bin\Debug\net10.0\AgerageCalculationApp.deps.json
+C:\Users\Abdulaziz\Desktop\git_projelerim\AgerageCalculationCode\AgerageCalculationCode\bin\Debug\net10.0\AgerageCalculationApp.runtimeconfig.json
+C:\Users\Abdulaziz\Desktop\git_projelerim\AgerageCalculationCode\AgerageCalculationCode\bin\Debug\net10.0\AgerageCalculationApp.dll
+C:\Users\Abdulaziz\Desktop\git_projelerim\AgerageCalculationCode\AgerageCalculationCode\bin\Debug\net10.0\AgerageCalculationApp.pdb
+C:\Users\Abdulaziz\Desktop\git_projelerim\AgerageCalculationCode\AgerageCalculationCode\obj\Debug\net10.0\AgerageCalculationApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Abdulaziz\Desktop\git_projelerim\AgerageCalculationCode\AgerageCalculationCode\obj\Debug\net10.0\AgerageCalculationApp.AssemblyInfoInputs.cache
+C:\Users\Abdulaziz\Desktop\git_projelerim\AgerageCalculationCode\AgerageCalculationCode\obj\Debug\net10.0\AgerageCalculationApp.AssemblyInfo.cs
+C:\Users\Abdulaziz\Desktop\git_projelerim\AgerageCalculationCode\AgerageCalculationCode\obj\Debug\net10.0\AgerageCalculationApp.csproj.CoreCompileInputs.cache
+C:\Users\Abdulaziz\Desktop\git_projelerim\AgerageCalculationCode\AgerageCalculationCode\obj\Debug\net10.0\AgerageCalculationApp.sourcelink.json
+C:\Users\Abdulaziz\Desktop\git_projelerim\AgerageCalculationCode\AgerageCalculationCode\obj\Debug\net10.0\AgerageCalculationApp.dll
+C:\Users\Abdulaziz\Desktop\git_projelerim\AgerageCalculationCode\AgerageCalculationCode\obj\Debug\net10.0\refint\AgerageCalculationApp.dll
+C:\Users\Abdulaziz\Desktop\git_projelerim\AgerageCalculationCode\AgerageCalculationCode\obj\Debug\net10.0\AgerageCalculationApp.pdb
+C:\Users\Abdulaziz\Desktop\git_projelerim\AgerageCalculationCode\AgerageCalculationCode\obj\Debug\net10.0\AgerageCalculationApp.genruntimeconfig.cache
+C:\Users\Abdulaziz\Desktop\git_projelerim\AgerageCalculationCode\AgerageCalculationCode\obj\Debug\net10.0\ref\AgerageCalculationApp.dll
