@@ -1,4 +1,5 @@
 ﻿using System.Diagnostics;
+using System.Drawing;
 using System.Net.Http.Headers;
 
 namespace nuberguessing_git
@@ -12,16 +13,16 @@ namespace nuberguessing_git
             string islem;
             do
             {
-                Console.WriteLine("\"Oyun\"  =======  \"Oyun hakkinda\"  =======  \"Talimatlar");
+                Console.WriteLine("\"Oyun\"  =======  \"Oyun hakkinda\"");
                 Console.WriteLine("Çıkış için \"cikis\"");
                 Console.Write("Yapmak istediğin işlemi gir : ");
                 islem = Console.ReadLine();
                 switch (islem)
                 {
                     case "oyun":
-                    case "Oyun":
                         do
                         {
+                            Console.Clear();
                             Console.WriteLine("1. seviye(1)  =====  2. seviye(2)  =====  3. seviye(3) ");
                             Console.WriteLine("1 adım geri gitmek için \"Geri\"");
                             Console.Write("Seviye Seç : ");
@@ -29,6 +30,7 @@ namespace nuberguessing_git
                             switch (seviye)
                             {
                                 case "1":
+
                                     Console.ForegroundColor = ConsoleColor.Cyan;
                                     Console.WriteLine("Kolay Seviye ");
                                     Console.WriteLine("1 - 100 arasında bir sayı tahmin et");
@@ -43,30 +45,60 @@ namespace nuberguessing_git
                                         tahmin[i] = Convert.ToInt32(Console.ReadLine());
                                         if (tahmin[i] == uretilenSayi)
                                         {
-                                            Console.WriteLine("Tebrikler! Doğru tahmin ettin.");
+                                            Console.BackgroundColor = ConsoleColor.Green;
+                                            Console.ForegroundColor = ConsoleColor.Black;
+                                            Console.Clear();
+                                            Console.WriteLine("                                       Tebrikler! Doğru tahmin ettin.");
+                                            Console.WriteLine("Oyun Bitti. ");
+
                                             break;
                                         }
                                         else if (tahmin[i] < uretilenSayi)
                                         {
-                                            Console.WriteLine("Daha yüksek bir sayı dene.");
+                                            if (i == 4)
+                                            {
+                                                Console.BackgroundColor = ConsoleColor.Red;
+                                                Console.ForegroundColor = ConsoleColor.Black;
+                                                Console.Clear();
+                                                Console.WriteLine("                                                 ^=^ Game Over ^=^");
+                                                break;
+                                            }
+                                            else
+                                            {
+                                                Console.WriteLine("Daha büyük bir sayı dene.");
+                                            }
                                         }
                                         else
                                         {
-                                            Console.WriteLine("Daha düşük bir sayı dene.");
+                                            if (i == 4)
+                                            {
+                                                Console.BackgroundColor = ConsoleColor.Red;
+                                                Console.ForegroundColor = ConsoleColor.Black;
+                                                Console.Clear();
+                                                Console.WriteLine("^=^ Game Over ^=^ ");
+                                                break;
+                                            }
+                                            else
+                                            {
+                                                Console.WriteLine("Daha küçük bir sayı dene.");
+                                            }
                                         }
                                     }
-                                    Console.WriteLine("Oyun bitti  ");
-                                    Console.WriteLine($"Tutulan sayı : {uretilenSayi}");
+                                    Console.WriteLine($"\n\n\nTutulan sayı : {uretilenSayi}");
+                                    Console.WriteLine("Devam etmek için her hangi bir tuşa bas.");
+                                    Console.ReadKey(true);
+                                    Console.ResetColor();
                                     break;
 
                                 case "2":
                                     Console.ForegroundColor = ConsoleColor.Cyan;
+                                    Console.Clear();
                                     Console.WriteLine("Orta Seviye ");
                                     Console.WriteLine("1 - 250 arasında bir sayı tahmin et.");
                                     Console.WriteLine("8 hakkın var, iyi düşün \n");
                                     Console.ResetColor();
                                     Random random2 = new Random();
-                                    int uretilenSayi2 = random2.Next(1, 251); // 1 ile 200 arasında rastgele bir sayı üretir.
+                                    int uretilenSayi2 = random2.Next(1, 251); // 1 ile 250 arasında rastgele bir sayı üretir.
                                     int[] tahmin2 = new int[8];
                                     for (int i = 0; i < 8; i++)
                                     {
@@ -74,42 +106,72 @@ namespace nuberguessing_git
                                         tahmin2[i] = Convert.ToInt32(Console.ReadLine());
                                         if (tahmin2[i] == uretilenSayi2)
                                         {
-                                            Console.WriteLine("Tebrikler! Doğru tahmin ettin.");
+                                            Console.BackgroundColor = ConsoleColor.Green;
+                                            Console.ForegroundColor = ConsoleColor.Black;
+                                            Console.Clear();
+                                            Console.WriteLine("                                       Tebrikler! Doğru tahmin ettin.");
+                                            Console.WriteLine("Oyun bitti ");
                                             break;
                                         }
                                         else if (tahmin2[i] < uretilenSayi2)
                                         {
-                                            Console.ForegroundColor = ConsoleColor.DarkYellow;
-                                            if (uretilenSayi2 - tahmin2[i] > 25)
+                                            if (i == 7)
                                             {
-                                                Console.WriteLine("Çok daha yüksek bir sayı dene.");
+                                                Console.BackgroundColor = ConsoleColor.Red;
+                                                Console.ForegroundColor = ConsoleColor.Black;
+                                                Console.Clear();
+                                                Console.WriteLine("                                                 ^=^ Game Over ^=^ ");
+                                                break;
                                             }
                                             else
                                             {
-                                                Console.WriteLine("Daha yüksek bir sayı dene.");
+                                                Console.ForegroundColor = ConsoleColor.DarkYellow;
+                                                if (uretilenSayi2 - tahmin2[i] > 25)
+                                                {
+                                                    Console.WriteLine("Çok daha büyük bir sayı dene. (en az 25 sayı) ");
+                                                }
+                                                else
+                                                {
+                                                    Console.WriteLine("Daha büyük bir sayı dene.");
+                                                }
                                             }
                                             Console.ResetColor();
                                         }
                                         else
                                         {
-                                            Console.ForegroundColor = ConsoleColor.DarkYellow;
-                                            if (tahmin2[i] - uretilenSayi2 > 25)
+                                            if (i == 7)
                                             {
-                                                Console.WriteLine("Çok daha düşük bir sayı dene.");
+                                                Console.BackgroundColor = ConsoleColor.Red;
+                                                Console.ForegroundColor = ConsoleColor.Black;
+                                                Console.Clear();
+                                                Console.WriteLine("                                                 ^=^ Game Over ^=^ ");
+                                                break;
                                             }
                                             else
                                             {
-                                                Console.WriteLine("Daha düşük bir sayı dene.");
+                                                Console.ForegroundColor = ConsoleColor.DarkYellow;
+                                                if (tahmin2[i] - uretilenSayi2 > 25)
+                                                {
+                                                    Console.WriteLine("Çok daha küçük bir sayı dene. (en az 25)");
+                                                }
+                                                else
+                                                {
+                                                    Console.WriteLine("Daha küçük bir sayı dene.");
+                                                }
                                             }
                                             Console.ResetColor();
                                         }
                                     }
-                                    Console.WriteLine("Oyun bitti ");
-                                    Console.WriteLine($"Tutulan sayı : {uretilenSayi2}");
+
+                                    Console.WriteLine($"\n\n\nTutulan sayı : {uretilenSayi2}");
+                                    Console.WriteLine("Devam etmek için her hangi bir tuşa bas.");
+                                    Console.ReadKey(true);
+                                    Console.ResetColor();
                                     break;
 
                                 case "3":
                                     Console.ForegroundColor = ConsoleColor.Cyan;
+                                    Console.Clear();
                                     Console.WriteLine("Zor Seviye ");
                                     Console.WriteLine("1 - 500 arasında bir sayı tahmin et.");
                                     Console.WriteLine("10 Hakkın var, stratejini iyi yaz.\n ");
@@ -123,45 +185,69 @@ namespace nuberguessing_git
                                         tahmin3[i] = Convert.ToInt32(Console.ReadLine());
                                         if (tahmin3[i] == uretilenSayi3)
                                         {
-                                            Console.WriteLine("Tebrikler! Doğru tahmin ettin.");
-
+                                            Console.BackgroundColor = ConsoleColor.Green;
+                                            Console.ForegroundColor = ConsoleColor.Black;
+                                            Console.Clear();
+                                            Console.WriteLine("                                       Tebrikler! Doğru tahmin ettin.");
+                                            Console.WriteLine("Oyun bitti ");
                                             break;
                                         }
                                         else if (tahmin3[i] < uretilenSayi3)
                                         {
-                                            Console.ForegroundColor = ConsoleColor.DarkYellow;
-
-                                            if (uretilenSayi3 - tahmin3[i] > 50)
+                                            if (i == 9)
                                             {
-                                                Console.WriteLine("Çok daha yüksek bir sayı dene.");
+                                                Console.BackgroundColor = ConsoleColor.Red;
+                                                Console.ForegroundColor = ConsoleColor.Black;
+                                                Console.Clear();
+                                                Console.WriteLine("                                                 ^=^ Game Over ^=^ ");
+                                                break;
                                             }
                                             else
                                             {
-                                                Console.WriteLine("Daha yüksek bir sayı dene.");
+                                                Console.ForegroundColor = ConsoleColor.DarkYellow;
+                                                if (uretilenSayi3 - tahmin3[i] > 50)
+                                                {
+                                                    Console.WriteLine("Çok daha büyük bir sayı dene. (en az 50 sayı)");
+                                                }
+                                                else
+                                                {
+                                                    Console.WriteLine("Daha büyük bir sayı dene.");
+                                                }
                                             }
                                             Console.ResetColor();
                                         }
-
                                         else
                                         {
-                                            Console.ForegroundColor = ConsoleColor.DarkYellow;
-                                            if (tahmin3[i] - uretilenSayi3 > 50)
+                                            if (i == 9)
                                             {
-                                                Console.WriteLine("Çok daha düşük bir sayı dene.");
+                                                Console.BackgroundColor = ConsoleColor.Red;
+                                                Console.ForegroundColor = ConsoleColor.Black;
+                                                Console.Clear();
+                                                Console.WriteLine("                                                 ^=^ Game Over ^=^ ");
+                                                break;
                                             }
                                             else
                                             {
-                                                Console.WriteLine("Daha düşük bir sayı dene.");
+                                                Console.ForegroundColor = ConsoleColor.DarkYellow;
+                                                if (tahmin3[i] - uretilenSayi3 > 50)
+                                                {
+                                                    Console.WriteLine("Çok daha küçük bir sayı dene. (en az 50 sayı)");
+                                                }
+                                                else
+                                                {
+                                                    Console.WriteLine("Daha küçük bir sayı dene.");
+                                                }
                                             }
                                             Console.ResetColor();
                                         }
-                                    }
-                                    Console.WriteLine($"Oyun bitti ");
-                                    Console.WriteLine($"Tutulan sayı : {uretilenSayi3}");
+                                    }                               
+                                    Console.WriteLine($"\n\n\nTutulan sayı : {uretilenSayi3}");
+                                    Console.WriteLine("Devam etmek için her hangi bir tuşa bas.");
+                                    Console.ReadKey(true);
+                                    Console.ResetColor();
                                     break;
 
                                 case "Geri":
-
                                     break;
 
                                 default:
@@ -200,9 +286,6 @@ namespace nuberguessing_git
                         Console.WriteLine("- \"Bu oyun, algoritmik düşünme becerisini ve temiz, sade bir oyun tasarımını bir araya getirme fikriyle geliştirildi. Amacım, temel bir matematiksel bulmacanın ne kadar rekabetçi ve tatmin edici olabileceğini göstermekti. En iyi skorunuzu görmek için sabırsızlanıyorum!\"\n");
                         break;
 
-                    case "Talimatlar":
-                        break;
-
                     default:
                         Console.WriteLine("Yanlış giriş yaptın, geçerli bir işlem seç.");
                         break;
@@ -212,10 +295,10 @@ namespace nuberguessing_git
             Console.WriteLine("Oyun bitti");
 
 
-            int puan = -1;  
+            int puan = -1;
             while (puan < 0 || puan > 10)
             {
-                Console.WriteLine("1-10 arasında bir puan veriniz.");
+                Console.WriteLine("1-10 arasında bir puan ver.");
                 puan = Convert.ToInt32(Console.ReadLine());
                 if (puan > 0 && puan <= 10)
                 {
@@ -224,11 +307,9 @@ namespace nuberguessing_git
                 }
                 else
                 {
-                    Console.WriteLine("Geçerli bir puan giriniz.");
+                    Console.WriteLine("Geçerli bir puan gir.");
                 }
             }
-
-
         }
     }
 }
