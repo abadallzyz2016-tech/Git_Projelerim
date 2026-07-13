@@ -33,26 +33,31 @@ namespace AgerageCalculationCode
             string[] dersİsmi;
             double[] ortalama;
             double[] krediSayisi;
+            double donemNotu = 0;
+            double[] dersSaati;
+            double toplamDersSaati = 0;
+            double dersSonOrt;
+            int dersSayisi;
+            string ders;
             double ortal = 0;
             switch (islem)
             {
                 case "1":
                     Console.WriteLine("ortalama hesapla ");
                     Console.Write("\nDers sayısı : ");
-                    int dersSayisi = Convert.ToInt32(Console.ReadLine());
+                    dersSayisi = Convert.ToInt32(Console.ReadLine());
                     dersİsmi = new string[dersSayisi];
                     Console.WriteLine("\nDerslerin isimlerini giriniz  ");
 
-                    for (int i = 0; i < dersSayisi; i++)
-                    {
-                        Console.Write($"{i + 1}. ders : ");
-                        string ders = Console.ReadLine();
-                        dersİsmi[i] = ders;
-                    }
+
 
                     ortalama = new double[dersSayisi];
                     for (int i = 0; i < dersSayisi; i++)
                     {
+                        Console.Write($"{i + 1}. ders : ");
+                        ders = Console.ReadLine();
+                        dersİsmi[i] = ders;
+
                         Console.WriteLine($"\n{dersİsmi[i]} dersi için : ");
                         Console.Write("Vize notu : ");
                         double vize = Convert.ToDouble(Console.ReadLine());
@@ -63,11 +68,11 @@ namespace AgerageCalculationCode
                         double ort = (vize * 30 / 100) + (odev * 10 / 100) + (final * 60 / 100);
 
                         Console.WriteLine($"{dersİsmi[i]} dersinin ortalaması : {ort}");
+
                     }
-
-
-
                     break;
+
+
 
                 case "2":
 
@@ -79,7 +84,7 @@ namespace AgerageCalculationCode
                     for (int i = 0; i < dersSayisi2; i++)
                     {
                         Console.Write($"{i + 1}. ders : ");
-                        string ders = Console.ReadLine();
+                        ders = Console.ReadLine();
                         dersİsmi[i] = ders;
                         Console.Write($"{dersİsmi[i]} dersinin kredi sayısı : ");
                         double kredi = Convert.ToDouble(Console.ReadLine());
@@ -110,7 +115,7 @@ namespace AgerageCalculationCode
                         {
                             ortal += krediSayisi[i] * 1.5;
                         }
-                        else if (harfNotu == "DD" ||harfNotu == "dd")
+                        else if (harfNotu == "DD" || harfNotu == "dd")
                         {
                             ortal += krediSayisi[i] * 1;
                         }
@@ -135,10 +140,47 @@ namespace AgerageCalculationCode
                     }
                     Console.WriteLine($"Dönem sonu ortalamanız : {ortal / toplamKredi}");
                     break;
-            
-            
+
+                case "3":
+                    Console.WriteLine("Lise ortalama hesapla ");
+                    Console.Write("\nDers sayısı : ");
+                    dersSayisi = Convert.ToInt32(Console.ReadLine());
+                    dersİsmi = new string[dersSayisi];
+                    dersSaati = new double[dersSayisi];
+                    Console.WriteLine("\nDerslerin isimlerini giriniz  ");
+
+                    for (int i = 0; i < dersSayisi; i++)
+                    {
+                        Console.Write($"{i + 1}. ders : ");
+                        ders = Console.ReadLine();
+                        dersİsmi[i] = ders;
+                        Console.Write("Ders saatinizi giriniz : ");
+                        dersSaati[i] = Convert.ToDouble(Console.ReadLine());
+
+                        Console.Write("1. sınav notu : ");
+                        double sinav1 = Convert.ToDouble(Console.ReadLine());
+                        Console.Write("2. sınav notu : ");
+                        double sinav2 = Convert.ToDouble(Console.ReadLine());
+                        double sinavOrt = (sinav1 + sinav2) / 2;
+
+                        Console.Write("1. sözlü notu : ");
+                        double sozlu1 = Convert.ToDouble(Console.ReadLine());
+                        Console.Write("2. sözlü notu : ");
+                        double sozlu2 = Convert.ToDouble(Console.ReadLine());
+                        double sozluOrt = (sozlu1 + sozlu2) / 2;
+
+                        toplamDersSaati += dersSaati[i];
+                        dersSonOrt = (sinavOrt + sozluOrt) / 2;
+                        Console.WriteLine($"{dersİsmi[i]} dersinin ortalaması : {dersSonOrt}");
+
+                        donemNotu += (dersSonOrt * dersSaati[i]);
+                    }
+                    Console.WriteLine("Dönem sonu ortalamanız : " + (donemNotu / toplamDersSaati));
+                    break;
+
+
             }
-              
+
             // 7 TEMMUZDA DEĞİŞİKLİKLER YAPTIM.   
 
 
