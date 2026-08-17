@@ -1,0 +1,301 @@
+ID | NAME | SURNAME | AGE | SEX | DEPARTMENT | AVERAGE
+1 | KYLIE | HOOPER | 23 | Female | Software Engineer | 45.24
+2 | BENJAMIN | WHITTAKER | 19 | Female | Medical | 49.196
+3 | JACK | STUART | 21 | Male | Software Engineer | 64.835
+4 | NATHAN | WALTERS | 23 | Male | Software Engineer | 48.892
+5 | HANNAH | HANCOCK | 22 | Female | Software Engineer | 46.141
+6 | GABRIEL | COLES | 20 | Male | Computer Engineer | 64.685
+7 | OLIVER | WHELAN | 19 | Male | Computer Engineer | 77.826
+8 | ETHAN | ABBOTT | 23 | Male | Computer Engineer | 41.566
+9 | CARTER | THOMPSON | 20 | Male | Software Engineer | 54.485
+10 | AUBREY | MCGRATH | 20 | Female | Medical | 59.953
+11 | JUSTIN | BRADSHAW | 18 | Female | Medical | 96.469
+12 | ANNABELLE | WILSON | 22 | Female | Software Engineer | 58.828
+13 | CHARLOTTE | JONES | 19 | Male | Software Engineer | 46.844
+14 | COLTON | MELLOR | 23 | Male | Computer Engineer | 49.891
+15 | LEAH | WRIGHT | 22 | Female | Software Engineer | 61.477
+16 | MARK | ROBERTS | 21 | Male | Computer Engineer | 77.043
+17 | FAITH | WEAVER | 22 | Male | Software Engineer | 63.391
+18 | NATHANIEL | WHITEHOUSE | 19 | Female | Software Engineer | 69.936
+19 | ISAIAH | THOMPSON | 18 | Male | Software Engineer | 67.719
+20 | EVA | WOOD | 18 | Female | Medical | 72.833
+21 | FAITH | WYATT | 21 | Female | Software Engineer | 29.848
+22 | KAYLEE | WILSON | 18 | Female | Software Engineer | 98.803
+23 | CARTER | ABBOTT | 20 | Male | Computer Engineer | 25.054
+24 | BROOKLYN | THOMPSON | 20 | Male | Software Engineer | 71.613
+25 | BRAYDEN | PETERS | 19 | Male | Computer Engineer | 83.766
+26 | ANTHONY | LITTLE | 20 | Male | Software Engineer | 34.598
+27 | LEAH | WALKER | 23 | Male | Computer Engineer | 91.839
+28 | AVA | LITTLE | 23 | Female | Software Engineer | 76.735
+29 | JACK | MANN | 19 | Female | Software Engineer | 25.194
+30 | CONNOR | WILLIAMS | 20 | Female | Medical | 59.778
+31 | ANTHONY | KENNY | 18 | Female | Medical | 29.039
+32 | CHARLOTTE | THOMPSON | 20 | Male | Software Engineer | 57.677
+33 | SAMUEL | ADAM | 22 | Female | Medical | 30.135
+34 | DAMIAN | SWIFT | 19 | Male | Computer Engineer | 51.831
+35 | MAKAYLA | SAVAGE | 21 | Female | Medical | 78.412
+36 | OLIVER | BALDWIN | 18 | Male | Software Engineer | 79.403
+37 | DANIEL | SILVA | 23 | Female | Medical | 93.515
+38 | ZACHARY | JENNINGS | 22 | Female | Software Engineer | 36.285
+39 | DAMIAN | MELLOR | 18 | Male | Software Engineer | 86.571
+40 | AYDEN | JENNINGS | 20 | Female | Medical | 85.687
+41 | NICHOLAS | DALE | 22 | Male | Computer Engineer | 42.344
+42 | JAYDEN | BRIGGS | 18 | Male | Software Engineer | 48.246
+43 | AYDEN | CHADWICK | 18 | Female | Medical | 89.67
+44 | DYLAN | WILLIAMS | 19 | Male | Software Engineer | 51.471
+45 | BENTLEY | OBRIEN | 22 | Male | Software Engineer | 63.046
+46 | JACE | HILTON | 20 | Male | Software Engineer | 87.589
+47 | COOPER | WHITTAKER | 21 | Female | Medical | 44.615
+48 | AVA | WHELAN | 23 | Female | Medical | 35.671
+49 | BRANDON | ADAM | 23 | Male | Computer Engineer | 73.904
+50 | SEBASTIAN | ABBOTT | 19 | Female | Software Engineer | 25.796
+51 | ALLISON | AKHTAR | 23 | Female | Software Engineer | 70.928
+52 | LANDON | COLES | 19 | Female | Software Engineer | 80.165
+53 | VIOLET | BALDWIN | 20 | Male | Software Engineer | 94.535
+54 | DOMINIC | HANCOCK | 20 | Female | Software Engineer | 99.853
+55 | JOCELYN | JENNINGS | 20 | Female | Medical | 26.443
+56 | SAVANNAH | JONES | 21 | Female | Software Engineer | 48.459
+57 | JOSHUA | WHITE | 19 | Male | Computer Engineer | 34.46
+58 | KAYDEN | MAC | 19 | Female | Medical | 65.476
+59 | STELLA | JOHNSON | 20 | Female | Software Engineer | 95.306
+60 | BRYSON | WHELAN | 23 | Female | Software Engineer | 84.486
+61 | KHLOE | WEAVER | 19 | Male | Software Engineer | 28.19
+62 | KENNEDY | BARLOW | 22 | Male | Software Engineer | 69.892
+63 | WILLIAM | LORD | 20 | Female | Medical | 73.06
+64 | WILLIAM | CULLEN | 22 | Male | Software Engineer | 56.481
+65 | ANDREW | SILVA | 21 | Female | Software Engineer | 35.596
+66 | ISAAC | LEWIS | 23 | Male | Software Engineer | 66.181
+67 | LONDON | WHITTAKER | 21 | Female | Medical | 78.879
+68 | GRACE | JACKSON | 21 | Male | Software Engineer | 37.117
+69 | XAVIER | SMITH | 23 | Female | Medical | 97.936
+70 | SAMANTHA | CULLEN | 19 | Female | Software Engineer | 64.858
+71 | JULIA | JOHNSON | 19 | Male | Software Engineer | 90.348
+72 | HARPER | STUART | 23 | Female | Medical | 64.141
+73 | ZACHARY | CULLEN | 21 | Male | Computer Engineer | 90.215
+74 | CLAIRE | HILTON | 20 | Female | Medical | 36.81
+75 | HAILEY | MANN | 23 | Female | Software Engineer | 35.566
+76 | JOCELYN | SINCLAIR | 20 | Female | Medical | 53.884
+77 | ALEXA | THOMAS | 22 | Male | Computer Engineer | 51.257
+78 | ELLA | GILES | 23 | Male | Computer Engineer | 32.181
+79 | ELI | EVANS | 19 | Female | Medical | 55.318
+80 | ALEXA | BROWN | 21 | Male | Software Engineer | 59.611
+81 | AMELIA | SANDERS | 18 | Female | Medical | 47.814
+82 | ALEXANDER | LINDSAY | 23 | Male | Computer Engineer | 36.676
+83 | ALYSSA | THOMAS | 18 | Female | Software Engineer | 97.834
+84 | OLIVER | WELCH | 19 | Female | Software Engineer | 57.329
+85 | NATALIE | WILLIAMS | 19 | Male | Software Engineer | 70.575
+86 | ZOE | HILTON | 19 | Male | Computer Engineer | 47.844
+87 | CHARLES | CULLEN | 22 | Female | Software Engineer | 73.133
+88 | DOMINIC | WRIGHT | 18 | Male | Computer Engineer | 58.605
+89 | LYDIA | WILSON | 19 | Male | Computer Engineer | 73.489
+90 | ISAIAH | GILES | 21 | Male | Computer Engineer | 49.408
+91 | LANDON | MCGRATH | 20 | Female | Software Engineer | 28.169
+92 | ADDISON | KENNY | 22 | Female | Medical | 70.252
+93 | DYLAN | WELCH | 22 | Female | Medical | 67.125
+94 | ETHAN | BALDWIN | 23 | Female | Medical | 67.491
+95 | JOCELYN | STUART | 23 | Female | Software Engineer | 65.186
+96 | EMMA | GREEN | 23 | Female | Medical | 67.082
+97 | ALEXIS | AKHTAR | 22 | Female | Software Engineer | 70.741
+98 | BENTLEY | NAYLOR | 22 | Male | Computer Engineer | 52.183
+99 | ZOE | WOOD | 20 | Female | Medical | 56.732
+100 | CARSON | THOMAS | 23 | Male | Computer Engineer | 79.301
+101 | JOSEPH | WHITEHOUSE | 23 | Female | Software Engineer | 65.617
+102 | AUSTIN | SMITH | 19 | Female | Medical | 95.253
+103 | FAITH | STUART | 19 | Male | Software Engineer | 83.996
+104 | BELLA | NAYLOR | 21 | Male | Software Engineer | 89.914
+105 | MIA | TAYLOR | 23 | Female | Medical | 57.828
+106 | CALEB | SINCLAIR | 22 | Female | Software Engineer | 77.482
+107 | JULIAN | JOYCE | 23 | Male | Computer Engineer | 64.363
+108 | ARIANNA | WOOD | 22 | Male | Software Engineer | 44.42
+109 | ALEX | AKHTAR | 21 | Female | Medical | 35.82
+110 | ZOEY | SILVA | 22 | Female | Medical | 38.666
+111 | CLAIRE | VAUGHAN | 18 | Male | Computer Engineer | 73.201
+112 | CHLOE | LORD | 20 | Male | Computer Engineer | 31.217
+113 | DOMINIC | MELLOR | 22 | Male | Software Engineer | 39.567
+114 | STELLA | BUCKLEY | 20 | Female | Medical | 57.677
+115 | MELANIE | ROSSI | 20 | Female | Medical | 28.112
+116 | CARTER | JONES | 21 | Female | Software Engineer | 63.894
+117 | AUDREY | WEAVER | 22 | Female | Software Engineer | 69.5
+118 | ADDISON | JONES | 20 | Male | Software Engineer | 56.804
+119 | KATHERINE | JOYCE | 21 | Male | Computer Engineer | 30.297
+120 | JULIAN | VAUGHAN | 18 | Female | Software Engineer | 72.018
+121 | PARKER | WHITE | 21 | Female | Software Engineer | 32.249
+122 | ARIA | CASSIDY | 20 | Male | Software Engineer | 76.087
+123 | MICHAEL | AKHTAR | 18 | Male | Computer Engineer | 57.486
+124 | GIANNA | POWER | 22 | Female | Medical | 36.305
+125 | MAKAYLA | DAVIES | 23 | Male | Computer Engineer | 91.714
+126 | BELLA | MCGRATH | 19 | Male | Software Engineer | 37.499
+127 | HANNAH | GREEN | 23 | Male | Software Engineer | 40.315
+128 | MASON | WHELAN | 20 | Male | Computer Engineer | 92.521
+129 | PARKER | BRIGGS | 21 | Male | Computer Engineer | 98.708
+130 | HENRY | BLAIR | 18 | Male | Software Engineer | 50.472
+131 | JUSTIN | HILTON | 19 | Male | Computer Engineer | 58.418
+132 | ADRIAN | VAUGHAN | 19 | Male | Computer Engineer | 65.307
+133 | HARPER | MAC | 18 | Male | Computer Engineer | 32.856
+134 | LOGAN | EVANS | 19 | Female | Software Engineer | 53.731
+135 | JOSEPH | AKHTAR | 21 | Female | Medical | 54.083
+136 | AUBREY | GILES | 21 | Male | Computer Engineer | 68.819
+137 | ZOEY | MANN | 19 | Male | Software Engineer | 36.602
+138 | LONDON | JENNINGS | 23 | Female | Software Engineer | 34.909
+139 | MADELYN | OBRIEN | 21 | Female | Medical | 38.771
+140 | EMILY | BUCKLEY | 23 | Female | Medical | 76.948
+141 | MARK | CARROLL | 22 | Male | Software Engineer | 52.111
+142 | LILLIAN | GREEN | 23 | Female | Software Engineer | 32.839
+143 | CARSON | MAC | 21 | Male | Software Engineer | 43.814
+144 | AALIYAH | BALDWIN | 20 | Female | Medical | 86.718
+145 | ANDREA | WALKER | 18 | Female | Software Engineer | 82.294
+146 | CHRISTIAN | WEAVER | 23 | Female | Medical | 79.414
+147 | EMMA | MCGREGOR | 21 | Male | Software Engineer | 94.177
+148 | WYATT | COLES | 23 | Female | Software Engineer | 25.437
+149 | SYDNEY | SUMMERS | 21 | Male | Computer Engineer | 37.49
+150 | DOMINIC | WHITE | 19 | Female | Medical | 72.311
+151 | SOFIA | SMITH | 23 | Male | Software Engineer | 42.545
+152 | LAUREN | ABBOTT | 23 | Female | Software Engineer | 65.015
+153 | DANIEL | WHITTAKER | 22 | Male | Software Engineer | 80.758
+154 | AVERY | SINCLAIR | 22 | Male | Computer Engineer | 52.45
+155 | HARPER | SHEPHERD | 19 | Female | Software Engineer | 62.094
+156 | MADISON | COLES | 18 | Female | Software Engineer | 98.438
+157 | SOPHIE | CARROLL | 21 | Female | Medical | 96.155
+158 | HENRY | WHITEHEAD | 22 | Male | Software Engineer | 41.784
+159 | SERENITY | JENNINGS | 23 | Male | Software Engineer | 78.426
+160 | AUBREY | SHEPHERD | 23 | Female | Medical | 77.701
+161 | SAMUEL | MOHAMED | 18 | Female | Medical | 53.853
+162 | BLAKE | MCFARLANE | 19 | Male | Computer Engineer | 62.784
+163 | ALEX | BALDWIN | 22 | Male | Computer Engineer | 74.08
+164 | MIA | NASH | 21 | Male | Software Engineer | 26.115
+165 | TRINITY | THOMAS | 21 | Male | Software Engineer | 53.432
+166 | LIAM | HANCOCK | 18 | Male | Computer Engineer | 79.435
+167 | GABRIEL | SILVA | 23 | Female | Medical | 84.746
+168 | BRAYDEN | BARLOW | 18 | Female | Software Engineer | 82.654
+169 | AMELIA | WHITTAKER | 19 | Female | Software Engineer | 75.818
+170 | ALEXANDRA | SAVAGE | 18 | Male | Computer Engineer | 66.576
+171 | KEVIN | SAVAGE | 20 | Female | Medical | 57.703
+172 | ALEXIS | LEWIS | 19 | Female | Software Engineer | 94.199
+173 | REAGAN | DALE | 19 | Male | Computer Engineer | 83.673
+174 | LUKE | SWIFT | 19 | Male | Software Engineer | 72
+175 | ADAM | WHITEHEAD | 21 | Male | Computer Engineer | 77.72
+176 | NATALIE | STUART | 23 | Female | Software Engineer | 46.765
+177 | NAOMI | ROBERTS | 20 | Male | Software Engineer | 42.406
+178 | NOAH | AKHTAR | 23 | Female | Software Engineer | 70.084
+179 | EMMA | MCFARLANE | 18 | Female | Medical | 57.24
+180 | CAMERON | SEYMOUR | 22 | Female | Software Engineer | 99.536
+181 | ELIJAH | OBRIEN | 20 | Male | Software Engineer | 40.687
+182 | ADRIAN | THORNE | 18 | Male | Software Engineer | 75.314
+183 | CHRISTOPHER | ADAM | 21 | Male | Software Engineer | 32.121
+184 | ALEXANDRA | SCHOFIELD | 19 | Male | Computer Engineer | 82.241
+185 | JASMINE | HAINES | 20 | Male | Computer Engineer | 43.951
+186 | TAYLOR | JOHNSON | 20 | Female | Software Engineer | 77.646
+187 | JORDAN | BUCKLEY | 22 | Female | Software Engineer | 98.174
+188 | LAUREN | OSBORNE | 23 | Male | Computer Engineer | 64.264
+189 | JACKSON | BLAIR | 21 | Male | Software Engineer | 30.004
+190 | ELLIE | JACKSON | 22 | Female | Medical | 27.411
+191 | CALEB | JOHNSON | 18 | Male | Software Engineer | 64.103
+192 | ELIZABETH | LORD | 21 | Female | Software Engineer | 71.953
+193 | KAYDEN | WATSON | 21 | Female | Software Engineer | 29.999
+194 | JAXON | SINCLAIR | 20 | Male | Software Engineer | 77.524
+195 | SOPHIA | AKHTAR | 23 | Female | Medical | 48.166
+196 | BRIANNA | WATSON | 22 | Female | Software Engineer | 43.371
+197 | ANDREW | SANDERS | 21 | Female | Software Engineer | 42.819
+198 | NATHANIEL | WHELAN | 18 | Female | Medical | 39.796
+199 | ARIA | RIDDICK | 18 | Female | Medical | 31.541
+200 | LAYLA | BALDWIN | 20 | Male | Software Engineer | 66.402
+201 | SOPHIA | MELLOR | 20 | Male | Software Engineer | 66.103
+202 | JAMES | MCGREGOR | 23 | Female | Software Engineer | 83.975
+203 | VICTORIA | DALE | 20 | Male | Software Engineer | 97.371
+204 | DOMINIC | JENNINGS | 18 | Male | Computer Engineer | 44.209
+205 | AMELIA | THORNE | 21 | Female | Software Engineer | 34.87
+206 | JULIAN | THORNE | 20 | Male | Computer Engineer | 34.101
+207 | NEVAEH | WILSON | 18 | Male | Computer Engineer | 89.508
+208 | MELANIE | THOMPSON | 23 | Female | Software Engineer | 88.627
+209 | ZOEY | DAVIES | 18 | Male | Computer Engineer | 25.538
+210 | BRANDON | MELLOR | 20 | Male | Computer Engineer | 61.964
+211 | KAYDEN | SANDERS | 22 | Female | Medical | 59.891
+212 | ABIGAIL | KENNY | 23 | Female | Software Engineer | 63.613
+213 | SYDNEY | JENNINGS | 18 | Male | Computer Engineer | 65.119
+214 | KHLOE | BURROWS | 21 | Female | Software Engineer | 35.267
+215 | LAYLA | COLES | 23 | Female | Medical | 52.144
+216 | KIMBERLY | ROBINSON | 21 | Female | Software Engineer | 93.433
+217 | SCOTT | STUART | 23 | Male | Computer Engineer | 79.222
+218 | EVELYN | BURROWS | 20 | Female | Software Engineer | 31.666
+219 | MELANIE | WHITE | 22 | Male | Software Engineer | 98.382
+220 | HUDSON | MAC | 22 | Female | Medical | 96.618
+221 | COOPER | WRIGHT | 23 | Female | Software Engineer | 49.072
+222 | JULIA | THORNE | 19 | Male | Computer Engineer | 82.811
+223 | GABRIEL | WATSON | 22 | Female | Software Engineer | 33.634
+224 | ARIA | SAVAGE | 18 | Female | Software Engineer | 90.251
+225 | MADELINE | SMITH | 21 | Female | Software Engineer | 42.091
+226 | LEAH | BROWN | 22 | Male | Computer Engineer | 30.137
+227 | AUSTIN | SHEPHERD | 19 | Female | Medical | 79.155
+228 | KYLIE | SINCLAIR | 19 | Female | Medical | 30.419
+229 | DANIEL | THOMAS | 21 | Male | Software Engineer | 57.249
+230 | AARON | MOHAMED | 18 | Male | Computer Engineer | 97.477
+231 | ADAM | HANCOCK | 21 | Female | Medical | 67.875
+232 | SEBASTIAN | JACKSON | 22 | Female | Software Engineer | 81.7
+233 | HAILEY | WHITTAKER | 20 | Male | Software Engineer | 40.484
+234 | LILLIAN | LITTLE | 20 | Female | Software Engineer | 45.846
+235 | ADAM | HILTON | 19 | Male | Computer Engineer | 39.094
+236 | JOSHUA | DALE | 19 | Female | Medical | 84.624
+237 | AYDEN | LITTLE | 19 | Male | Computer Engineer | 78.117
+238 | ALEXIS | WALTERS | 22 | Male | Computer Engineer | 46.017
+239 | KHLOE | LEWIS | 19 | Female | Software Engineer | 85.073
+240 | VICTORIA | LEACH | 18 | Male | Software Engineer | 75.99
+241 | NATHANIEL | WHITEHEAD | 22 | Female | Medical | 28.541
+242 | SAMUEL | WHITE | 19 | Female | Software Engineer | 97.752
+243 | GENESIS | WHITEHOUSE | 21 | Male | Computer Engineer | 44.853
+244 | PARKER | WEAVER | 22 | Male | Software Engineer | 60.127
+245 | CHARLOTTE | CASSIDY | 18 | Female | Medical | 68.171
+246 | ANDREW | DALE | 22 | Male | Computer Engineer | 92.239
+247 | JAMES | BLAIR | 21 | Male | Software Engineer | 54.182
+248 | CALEB | WATSON | 18 | Female | Software Engineer | 79.208
+249 | JAXON | PETERS | 21 | Male | Computer Engineer | 96.835
+250 | SKYLAR | JOHNSON | 23 | Female | Medical | 60.091
+251 | GRAYSON | HAINES | 22 | Female | Software Engineer | 33.18
+252 | AYDEN | BRADSHAW | 22 | Male | Computer Engineer | 36.32
+253 | BENTLEY | MCLEAN | 20 | Female | Software Engineer | 75.628
+254 | SYDNEY | WHITEHEAD | 22 | Female | Software Engineer | 28.598
+255 | DANIEL | CASSIDY | 21 | Female | Medical | 58.032
+256 | VICTORIA | LEWIS | 18 | Female | Medical | 37.704
+257 | JAMES | DALE | 18 | Female | Medical | 39.405
+258 | KHLOE | BALDWIN | 22 | Female | Medical | 65.359
+259 | GENESIS | SUMMERS | 19 | Female | Software Engineer | 74.197
+260 | ZACHARY | ABBOTT | 23 | Female | Software Engineer | 93.92
+261 | JEREMIAH | WEAVER | 18 | Male | Software Engineer | 42.814
+262 | HANNAH | SMITH | 20 | Female | Software Engineer | 59.709
+263 | DANIEL | WILLIAMS | 18 | Male | Computer Engineer | 52.994
+264 | BRANDON | WHELAN | 18 | Male | Software Engineer | 36.41
+265 | MATTHEW | THOMAS | 23 | Male | Software Engineer | 37.126
+266 | BENJAMIN | MOHAMED | 22 | Female | Medical | 35.187
+267 | CALEB | BLAIR | 20 | Female | Software Engineer | 90.808
+268 | JOSE | SEYMOUR | 20 | Male | Software Engineer | 70.016
+269 | VIOLET | SILVA | 23 | Female | Medical | 91.335
+270 | ALYSSA | VAUGHAN | 20 | Male | Computer Engineer | 85.968
+271 | BRIANNA | ROBINSON | 21 | Female | Software Engineer | 27.049
+272 | MADELYN | KENNY | 20 | Female | Software Engineer | 85.191
+273 | KIMBERLY | OBRIEN | 19 | Male | Computer Engineer | 86.645
+274 | SOPHIE | VAUGHAN | 18 | Female | Medical | 56.199
+275 | BAILEY | OSBORNE | 21 | Male | Software Engineer | 30.857
+276 | ALEXA | MCGREGOR | 22 | Female | Software Engineer | 63.578
+277 | WILLIAM | WHITE | 19 | Female | Medical | 97.888
+278 | ELI | WRIGHT | 23 | Male | Computer Engineer | 67.319
+279 | LEAH | GREEN | 22 | Female | Medical | 70.115
+280 | JASMINE | POWER | 22 | Female | Software Engineer | 94.19
+281 | MAYA | RIDDICK | 23 | Male | Computer Engineer | 63.999
+282 | PARKER | FLEMING | 22 | Male | Computer Engineer | 45.535
+283 | ETHAN | WALTERS | 23 | Female | Medical | 47.103
+284 | MOLLY | THOMPSON | 18 | Female | Medical | 46.16
+285 | KAYDEN | THORNE | 20 | Male | Computer Engineer | 79.086
+286 | AARON | JENNINGS | 22 | Female | Software Engineer | 51.835
+287 | CARTER | SUMMERS | 21 | Male | Software Engineer | 97.002
+288 | OWEN | WHITEHEAD | 19 | Male | Software Engineer | 78.353
+289 | JAMES | MANN | 20 | Male | Computer Engineer | 87.131
+290 | NOLAN | WHITEHOUSE | 23 | Male | Computer Engineer | 39.463
+291 | ANDREW | LINDSAY | 21 | Male | Computer Engineer | 67.313
+292 | BRANDON | PERKINS | 21 | Male | Computer Engineer | 88.183
+293 | LYDIA | MCLEAN | 22 | Male | Software Engineer | 57.651
+294 | ALEXIS | HANCOCK | 19 | Female | Medical | 40.804
+295 | MADELYN | WOOD | 22 | Male | Software Engineer | 78.92
+296 | LUCAS | LEACH | 18 | Male | Computer Engineer | 62.555
+297 | JAMES | WALKER | 23 | Male | Computer Engineer | 25.811
+298 | EASTON | BLAIR | 22 | Male | Computer Engineer | 30.114
+299 | AUTUMN | ADAM | 22 | Male | Software Engineer | 86.229
+300 | BRIANNA | NAYLOR | 20 | Male | Software Engineer | 74.663
