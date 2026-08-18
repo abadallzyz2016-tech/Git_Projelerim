@@ -65,7 +65,6 @@ namespace ATM_Simulasyonu
                         text_login_username.Text = "";
                         Forms.MainMenu mainMenuForm = new Forms.MainMenu(username);
                         mainMenuForm.Show();
-
                     }
                     else
                     {

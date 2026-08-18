@@ -1,0 +1,24 @@
+<Solution>
+  <Folder Name="/AgerageCalculationCode/" />
+  <Folder Name="/AgerageCalculationCode/AgerageCalculationCode/">
+    <Project Path="AgerageCalculationCode/AgerageCalculationCode/AgerageCalculationApp.csproj" />
+  </Folder>
+  <Folder Name="/calculator/">
+    <Project Path="calculator/calculator-git/calculator-git.csproj" />
+  </Folder>
+  <Folder Name="/Level1Projects/" />
+  <Folder Name="/Level1Projects/StudentManagementSystem/">
+    <Project Path="Level1Projects/StudentManagementSystem/StudentManagementSystem.csproj" Id="b89b9bd4-b800-4caa-993b-a8fe8b137d2e" />
+  </Folder>
+  <Folder Name="/NumberGuessingGame2/">
+    <Project Path="NumberGuessingGame2/numberguessing-git/numberguessing-git.csproj" />
+  </Folder>
+  <Folder Name="/RPSGame/">
+    <Project Path="RPSGame/RPSGame/RPSGame.csproj" />
+  </Folder>
+  <Folder Name="/StudentManagementSystem/">
+    <Project Path="StudentManagementSystem/StudentManagementSystem/StudentManagementSystem.csproj" Id="037431b7-c00f-44ee-8e1b-146156aa3395" />
+  </Folder>
+  <Project Path="ATM_Simulation/ATM_Simulation/ATM_Simulation.csproj" />
+  
+</Solution>
